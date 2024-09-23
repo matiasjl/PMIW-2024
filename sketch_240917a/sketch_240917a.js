@@ -1,3 +1,7 @@
+// REPASANDO ARREGLOS 1D
+// https://www.w3schools.com/js/js_arrays.asp
+// -------------------
+
 // variable
 let miNombre = "Matias";
 // array 7 largo = tipo lista una dimension

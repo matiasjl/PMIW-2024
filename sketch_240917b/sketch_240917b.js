@@ -1,4 +1,5 @@
 // DIBUJANDO PIXEL ART
+// https://www.w3schools.com/js/js_arrays.asp
 // -------------------
 
 // array 2 dimensiones = TABLA / GRILLA
