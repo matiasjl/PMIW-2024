@@ -1,6 +1,6 @@
 /*
 
-Punteo de recursos de programacio para TPF Etapa 1
+Punteo de recursos de programacion para TPF Etapa 1
 
 1) Logica de estados/eventos: refe TP2 Presentacion
 ---util para organizar en pantallas la aventura
