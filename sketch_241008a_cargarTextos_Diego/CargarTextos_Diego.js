@@ -35,7 +35,7 @@ function setup() {
   TextosTXT(30, 60, 1);
   TextosTXT(30, 90, 2);
   TextosTXT(30, 120, 3);
-  
+
   rect(width/2-20, 0, 20, height);
 
   DialogosCSV(width/2 + 20, 20, 'Escena1_Dialogo1');
@@ -91,8 +91,9 @@ function GetTextCSV(_id, _columna) {
   let IDColumna = guionCSV.getColumn('ID');
 
   for (let fila=0; fila < IDColumna.length; fila++) {
-    if (IDColumna[fila] === _id)
+    if (IDColumna[fila] === _id) {
       return guionCSV.getColumn(_columna)[fila];
+    }
   }
   return "NO SE ENCONTRO EL ID: " + _id;
 }
