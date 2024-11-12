@@ -1,7 +1,7 @@
 // 04. arreglos de objetos
 
 // en este momento llamo al constructor de Sistema, quien llama internamente a los constructores de 4 Particulas
-let sistema = new Sistema( 100 );
+let sistema = new Sistema( 1000 );
 
 function setup() {
   createCanvas(800, 600);

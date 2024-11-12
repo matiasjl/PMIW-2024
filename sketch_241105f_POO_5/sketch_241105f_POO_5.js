@@ -10,7 +10,7 @@ function setup() {
 function draw() {
   //background( 200 );
   push();
-  fill( 200, 5 );
+  fill( 50, 5 );
   rect(0, 0, width, height );
   pop();
   

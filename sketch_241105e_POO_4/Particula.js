@@ -13,7 +13,7 @@ class Particula {
 
   // metodos = funciones de la clase
   dibujar() {
-    fill( 255 );
+    fill( 255, 20 );  //UPGRADE 12/11: transparencia
     circle( this.x, this.y, this.diam );
   }
 
